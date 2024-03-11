@@ -34,6 +34,9 @@ sqlite3,
 bcrypt,
 jsonwentoken
 
+#Authenticated and Authorized
+
+
 ## Backend deployed link
 https://registerlogin-4.onrender.com
 
