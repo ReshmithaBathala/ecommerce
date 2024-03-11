@@ -4,34 +4,34 @@
 
 
 ##Set up instructions
-npm install 
-npm start
+--npm install 
+--npm start
 
 
 
 ##Functionality added 
-When an unauthenticated user tries to access the Home Route, then the page is navigated to Login Route
-When an authenticated user tries to access the Home Route, then he can access all the features on home tab
-When an authenticated user tries to logout, then the page is navigated to Login Route
-When an unauthenticated user tries to login then the page is navigated to Register Route
+--When an unauthenticated user tries to access the Home Route, then the page is navigated to Login Route.
+--When an authenticated user tries to access the Home Route, then he can access all the features on home tab.
+--When an authenticated user tries to logout, then the page is navigated to Login Route.
+--When an unauthenticated user tries to login then the page is navigated to Register Route.
 
 ##styling used 
 CSS Styling,
 Bootstrap
 
 ## dependencies installed
-  #frontend:
-react-router-dom
-react-icons
+--#frontend:
+react-router-dom,
+react-icons,
 js-cookie
 
   #backend:
-express
-cors
-body-parser
-sqlite
-sqlite3
-bcrypt
+express,
+cors,
+body-parser,
+sqlite,
+sqlite3,
+bcrypt,
 jsonwentoken
 
 ## Backend deployed link
