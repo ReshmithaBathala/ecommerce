@@ -71,6 +71,7 @@ const Customers = () => {
 
   const renderProducts = () => (
     <div className="product-sections">
+      <h1 className="heading">New Customers: </h1>
       <div>
         {productsLength > 0 ? (
           <ul className="products-list">

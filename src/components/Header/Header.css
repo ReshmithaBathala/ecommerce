@@ -95,7 +95,6 @@
   justify-content: space-around;
   align-items: center;
   height: 70px;
-  background-color: #e6f6ff;
   flex: 1;
   list-style-type: none;
   margin-top: 0px;
@@ -157,7 +156,8 @@
 }
 
 .nav-bar-img {
-  width: 24px;
+  width: 29px;
+  height: 30px;
 }
 
 .cart-count-badge {

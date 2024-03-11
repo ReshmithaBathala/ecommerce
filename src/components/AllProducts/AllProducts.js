@@ -61,11 +61,14 @@ const AllProducts = () => {
   const renderProducts = () => (
     <div>
       {productsLength > 0 ? (
-        <ul className="products-list">
-          {productsData.map((product) => (
-            <ProductCard productData={product} key={product.Id} />
-          ))}
-        </ul>
+        <div>
+          <h1 className="heading">Recent Purchases: </h1>
+          <ul className="products-list">
+            {productsData.map((product) => (
+              <ProductCard productData={product} key={product.Id} />
+            ))}
+          </ul>
+        </div>
       ) : (
         <div className="no-products-view">
           <h1 className="no-products-heading">No Products Found</h1>

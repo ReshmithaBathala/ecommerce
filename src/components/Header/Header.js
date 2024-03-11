@@ -1,6 +1,10 @@
 import { Link, useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
-
+import { IoMdHome } from "react-icons/io";
+import { AiTwotoneShopping } from "react-icons/ai";
+import { FcRatings } from "react-icons/fc";
+import { MdOutlinePeople } from "react-icons/md";
+import { IoLogOut } from "react-icons/io5";
 import "./Header.css";
 
 const Header = () => {
@@ -18,7 +22,7 @@ const Header = () => {
           <Link to="/">
             <img
               className="website-logo"
-              src="https://www.logolynx.com/images/logolynx/a6/a671ef222a6e136f8fe7fd9cfc97e57b.png"
+              src="https://s.tmimgcdn.com/scr/800x500/126100/ecommerce-logo-template_126133-original.png"
               alt="website logo"
             />
           </Link>
@@ -28,11 +32,7 @@ const Header = () => {
             className="nav-mobile-btn"
             onClick={onClickLogout}
           >
-            <img
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
-              alt="nav logout"
-              className="nav-bar-img"
-            />
+            <IoLogOut className="nav-bar-img" />
           </button>
         </div>
 
@@ -40,7 +40,7 @@ const Header = () => {
           <Link to="/">
             <img
               className="website-logo"
-              src="https://www.logolynx.com/images/logolynx/a6/a671ef222a6e136f8fe7fd9cfc97e57b.png"
+              src="https://s.tmimgcdn.com/scr/800x500/126100/ecommerce-logo-template_126133-original.png"
               alt="website logo"
             />
           </Link>
@@ -76,6 +76,31 @@ const Header = () => {
             Logout
           </button>
         </div>
+      </div>
+      <div className="nav-menu-mobile">
+        <ul className="nav-menu-list-mobile">
+          <li className="nav-menu-item-mobile">
+            <Link to="/" className="nav-link">
+              <IoMdHome className="nav-bar-img" />
+            </Link>
+          </li>
+
+          <li className="nav-menu-item-mobile">
+            <Link to="/products" className="nav-link">
+              <AiTwotoneShopping className="nav-bar-img" />
+            </Link>
+          </li>
+          <li className="nav-menu-item-mobile">
+            <Link to="/reviews" className="nav-link">
+              <FcRatings className="nav-bar-img" />
+            </Link>
+          </li>
+          <li className="nav-menu-item-mobile">
+            <Link to="/customers" className="nav-link">
+              <MdOutlinePeople className="nav-bar-img" />
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );

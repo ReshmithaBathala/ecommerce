@@ -72,6 +72,7 @@ const Rating = () => {
   const renderProducts = () => (
     <div className="product-sections">
       <div>
+        <h1 className="heading">Recent Ratings: </h1>
         {productsLength > 0 ? (
           <ul className="products-list">
             {ratingsData.map((product) => (

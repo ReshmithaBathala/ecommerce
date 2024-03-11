@@ -160,3 +160,10 @@
     width: 70%;
   }
 }
+.heading {
+  color: navy;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+}
