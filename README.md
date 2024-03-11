@@ -39,6 +39,51 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+##Functionality added 
+When an unauthenticated user tries to access the Home Route, then the page is navigated to Login Route
+When an authenticated user tries to access the Home Route, then he can access all the features on home tab
+When an authenticated user tries to logout, then the page is navigated to Login Route
+When an unauthenticated user tries to login then the page is navigated to Register Route
+
+##styling used 
+CSS Styling,
+Bootstrap
+
+## dependencies installed
+  #frontend:
+react-router-dom
+react-icons
+js-cookie
+
+  #backend:
+express
+cors
+body-parser
+sqlite
+sqlite3
+bcrypt
+jsonwentoken
+
+## Backend deployed link
+https://registerlogin-4.onrender.com
+
+apis:https://registerlogin-4.onrender.com/login
+      https://registerlogin-4.onrender.com/register
+
+## project deployed link using Netlify
+https://ecommercecustomerproresh.netlify.app/
+
+
+ 
+
+
+
+
+
+
+
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -65,6 +110,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+LiveLink:https://ecommercecustomerproresh.netlify.app/
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
